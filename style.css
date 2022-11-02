@@ -1,0 +1,89 @@
+h1, h2 {
+  color: #FF9494;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bolder;
+  font-weight: 500;
+}
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  background: #FFE3E1;
+  color: #6d6875;
+  font-size: 17px;
+  padding: 25px;
+  font-weight: lighter;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+li {
+  display: inline;
+}
+
+ul{
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #cdb4db;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.4s ease;
+}
+
+a:hover{
+  color: #a2d2ff;
+}
+
+.image-circle{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.text-center {
+text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.card {
+  background-color: #FFF5E4;
+  padding: 25px;
+  margin: 25px auto;
+  border-radius: 15px;
+  border: 1px solid #EAEAEA;
+  box-shadow: 5px 5px 10px #cabbb2;
+}
+
+#profile-pic{
+  box-shadow: 3px 3px 3px #beada3;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
